@@ -606,7 +606,7 @@
 								</p>
 
 								<p style="text-align:center!important">
-								<a href="https://minhacarteirasegura.com.br">minhacarteirasegura.com.br</a>
+								<a href="#" onclick="abreSite('https://minhacarteirasegura.com.br')">minhacarteirasegura.com.br</a>
 								</p>
 
 								<p style="text-align:center!important">
@@ -649,10 +649,17 @@
 
 			});
 
-			document.addEventListener("deviceready", onDeviceReady, false);
-				function onDeviceReady() {
-				    window.open = cordova.InAppBrowser.open;
-				}
+			var siteFreedom;
+
+			function abreSite(url) {
+
+			    var target = "_blank";
+
+			    var options = "location=yes,hidden=yes";
+
+			    siteFreedom = cordova.InAppBrowser.open(url, target, options);
+
+			}
 		</script>
 	</body>
 </html>
