@@ -1,0 +1,43 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-crosswalk-webview": {
+            "PACKAGE_NAME": "xdk.intel.blank.ad.template.crosswalk"
+        },
+        "cordova-plugin-legacy-whitelist": {
+            "PACKAGE_NAME": "xdk.intel.blank.ad.template.crosswalk"
+        },
+        "cordova-plugin-camera": {
+            "PACKAGE_NAME": "xdk.intel.blank.ad.template.crosswalk"
+        },
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "xdk.intel.blank.ad.template.crosswalk"
+        },
+        "cordova-plugin-file-transfer": {
+            "PACKAGE_NAME": "xdk.intel.blank.ad.template.crosswalk"
+        },
+        "cordova-plugin-media": {
+            "PACKAGE_NAME": "xdk.intel.blank.ad.template.crosswalk"
+        },
+        "cordova-plugin-geolocation": {
+            "PACKAGE_NAME": "xdk.intel.blank.ad.template.crosswalk"
+        },
+        "cordova-plugin-media-capture": {
+            "PACKAGE_NAME": "xdk.intel.blank.ad.template.crosswalk"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "xdk.intel.blank.ad.template.crosswalk"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "xdk.intel.blank.ad.template.crosswalk"
+        }
+    }
+}
