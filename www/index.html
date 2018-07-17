@@ -17,7 +17,7 @@
 
 		<link rel="stylesheet" type="text/css" href="fonts/font-awesome.css" />
 		<script src="js/modernizr.custom.79639.js"></script>
-		<script type="text/javascript" src="js/cordova.js"></script>
+		
 	<script type="text/javascript">
 		// Don't use this code on your site
   		
@@ -643,6 +643,7 @@
 		<script src="js/jquery.jscrollpane.min.js"></script>
 		<script src="js/jquerypp.custom.js"></script>
 		<script src="js/jquery.bookblock.js"></script>
+		<script type="text/javascript" src="js/cordova.js"></script>
 		<script src="js/page.js"></script>
 		<script>
 			$(function() {
@@ -658,8 +659,10 @@
 			    var target = "_blank";
 
 			    var options = "location=yes,hidden=yes";
+			    alert(url);
 
-			    siteFreedom = cordova.InAppBrowser.open(url, target, options);
+			    //siteFreedom = cordova.InAppBrowser.open(url, target, options);
+			    window.open(url);
 
 			}
 		</script>
